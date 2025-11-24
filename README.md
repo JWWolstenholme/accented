@@ -1,6 +1,6 @@
 # Accented
 
-A lightweight theme for Spotify that replaces Spotify's green with a color of your choice.
+A lightweight theme for [Spicetify](https://github.com/spicetify) that replaces Spotify's green with a color of your choice.
 
 ![preview](./img/preview.png)
 
