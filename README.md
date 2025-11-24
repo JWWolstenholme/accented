@@ -26,7 +26,7 @@ This theme was originally created by [@luximus-hunter](https://github.com/luximu
 
 **Spicetify Marketplace** (recommended)
 
-Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS1103/spicetify-marketplace). This will allow you to change the color quickly in-app.
+Install the theme though the [Spicetify Marketplace](https://github.com/spicetify/marketplace). This will allow you to change the color quickly in-app.
 
 ![colors](./img/colors.png)
 
@@ -34,11 +34,19 @@ Install the theme though the [Spicetify Marketplace](https://github.com/CharlieS
 
 ```bash
 cd "$(dirname "$(spicetify -c)")/Themes"
-git clone https://github.com/luximus-hunter/accented
+git clone https://github.com/JWWolstenholme/accented
 ```
 
 **Windows** in Powershell:
 
 ```powershell
 cd "$(spicetify -c | Split-Path)\Themes"
-git clone https://github.com/luximus-hunter/accented
+git clone https://github.com/JWWolstenholme/accented
+```
+
+## Development
+
+1. Install [npm](https://www.npmjs.com/)
+1. Install [sass](https://sass-lang.com/): `npm install -g sass`
+1. Edit [`user.scss`](/user.scss). **Not** `user.css`.
+1. Run `sass user.scss user.css` to compile and output to the [`user.css`](/user.css) file
