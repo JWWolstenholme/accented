@@ -1,8 +1,10 @@
 # Accented
 
-Replace Spotify's green and remove unnecessary colors.
+A lightweight theme for Spotify that replaces Spotify's green with a color of your choice.
 
 ![preview](./img/preview.png)
+
+This theme was originally created by @luximus-hunter, survived by @updxg's fork, then updated to reappear on the marketplace on this fork.
 
 ## Color options
 
@@ -18,6 +20,9 @@ Replace Spotify's green and remove unnecessary colors.
 - Full White (also hearts)
 
 ## Installation
+
+> [!WARNING]
+> These installation methods may not currently work as of 2025-11-25. Especially for this fork (@JWWolstenholme).
 
 **Spicetify Marketplace** (recommended)
 
