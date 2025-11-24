@@ -49,4 +49,4 @@ git clone https://github.com/JWWolstenholme/accented
 1. Install [npm](https://www.npmjs.com/)
 1. Install [sass](https://sass-lang.com/): `npm install -g sass`
 1. Edit [`user.scss`](/user.scss). **Not** `user.css`.
-1. Run `sass user.scss user.css` to compile and output to the [`user.css`](/user.css) file
+1. Run `sass --no-source-map user.scss:user.css` to compile and output to the [`user.css`](/user.css) file

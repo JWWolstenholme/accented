@@ -1,0 +1,50 @@
+name: Verify compiled CSS matches SCSS
+
+on:
+  pull_request:
+    paths:
+      - 'user.scss'
+      - 'user.css'
+  push:
+    branches:
+      - master
+
+env:
+  SASS_INPUT: user.scss
+  SASS_OUTPUT: user.css
+
+jobs:
+  verify-compiled-css:
+    name: Verify generated CSS is up-to-date
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js (for sass)
+        uses: actions/setup-node@v4
+
+      - name: Install sass CLI
+        run: npm install -g sass
+
+      - name: Compile SCSS to temporary file
+        run: sass --no-source-map "$SASS_INPUT":"compiled_user.css"
+
+      - name: Compare compiled CSS with checked-in CSS
+        run: |
+          set -e
+          if [ ! -f "$SASS_OUTPUT" ]; then
+            echo "::error::Checked-in CSS file '$SASS_OUTPUT' is missing. Run 'sass --no-source-map $SASS_INPUT:$SASS_OUTPUT' locally and add it to your branch.";
+            exit 1
+          fi
+          if ! diff -u "$SASS_OUTPUT" compiled_user.css > css_diff.patch; then
+            echo "::error::The checked-in '$SASS_OUTPUT' is out of date with '$SASS_INPUT'. Please run:";
+            echo "  sass --no-source-map $SASS_INPUT:$SASS_OUTPUT";
+            echo "Then include the updated '$SASS_OUTPUT' in your branch and push the changes.";
+            echo "---- DIFF ----";
+            sed -n '1,200p' css_diff.patch || true
+            exit 1
+          else
+            echo "CSS is up-to-date with SCSS."
+          fi
+
