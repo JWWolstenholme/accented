@@ -4,7 +4,7 @@ A lightweight theme for Spotify that replaces Spotify's green with a color of yo
 
 ![preview](./img/preview.png)
 
-This theme was originally created by @luximus-hunter, survived by @updxg's fork, then updated to reappear on the marketplace on this fork.
+This theme was originally created by [@luximus-hunter](https://github.com/luximus-hunter) in Feb of 2022, survived by [@updxg](https://github.com/updxg)'s fork (among others) after it was deleted or privated, then updated to reappear on the marketplace on this fork.
 
 ## Color options
 
@@ -22,7 +22,7 @@ This theme was originally created by @luximus-hunter, survived by @updxg's fork,
 ## Installation
 
 > [!WARNING]
-> These installation methods may not currently work as of 2025-11-25. Especially for this fork (@JWWolstenholme).
+> These installation methods may not currently work as of 2025-11-25. Especially for this fork ([@JWWolstenholme](https://github.com/JWWolstenholme/accented)).
 
 **Spicetify Marketplace** (recommended)
 
