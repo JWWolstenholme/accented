@@ -2,7 +2,7 @@
 
 // Font with emoji support
 * {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 // globals
@@ -24,13 +24,33 @@
   --lyrics-color-messaging: #333333 !important;
 }
 
-.__background {
+.__background,
+.control-button--active-dot:after,
+input:checked~.x-toggle-indicatorWrapper {
   background-color: var(--spice-color) !important;
   background: var(--spice-color) !important;
   color: var(--spice-contrast) !important;
 }
 
-.__color {
+.button-module__button___hf2qg_marketplace {
+  color: black;
+  background-color: var(--spice-color);
+}
+
+.Dropdown-menu {
+  background-color: #282828;
+  max-height: 30vh;
+  max-width: 350px;
+  min-width: 145px;
+  border: 4px;
+}
+
+.__color,
+.main-repeatButton-button[aria-checked=true],
+.main-repeatButton-button[aria-checked=mixed],
+.main-shuffleButton-button[aria-checked=true],
+button[aria-label=Playing],
+.control-button--active-dot:after {
   color: var(--spice-color) !important;
   fill: var(--spice-color) !important;
 }
@@ -84,7 +104,6 @@
 }
 
 // buttons
-.main-playButton-PlayButton,
 .main-playButton-primary,
 .ButtonInner-sc-14ud5tc-0,
 .main-button-primary {

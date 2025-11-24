@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 :root,
@@ -19,12 +19,11 @@
   --lyrics-color-messaging: #333333 !important;
 }
 
-.__background,
-.main-playButton-primary,
+.__background, .main-playButton-primary,
 .ButtonInner-sc-14ud5tc-0,
 .main-button-primary,
 .control-button--active-dot:after,
-input:checked~.x-toggle-indicatorWrapper {
+input:checked ~ .x-toggle-indicatorWrapper {
   background-color: var(--spice-color) !important;
   background: var(--spice-color) !important;
   color: var(--spice-contrast) !important;
@@ -32,25 +31,25 @@ input:checked~.x-toggle-indicatorWrapper {
 
 .button-module__button___hf2qg_marketplace {
   color: black;
-  background-color: var(--spice-color)
+  background-color: var(--spice-color);
 }
 
 .Dropdown-menu {
   background-color: #282828;
   max-height: 30vh;
-  max-width: 350px; 
+  max-width: 350px;
   min-width: 145px;
   border: 4px;
 }
 
-
-.__color, .HbKLiGoYM4dpuK8L4TMX, .connect-device-list-item--active,
+.__color, .connect-device-list-item--active,
 .connect-device-list-item--active *,
 .control-button--active,
-.main-repeatButton-button[aria-checked="true"],
-.main-repeatButton-button[aria-checked="mixed"],
-.main-shuffleButton-button[aria-checked="true"],
-button[aria-label="Playing"],
+.main-repeatButton-button, .HbKLiGoYM4dpuK8L4TMX,
+.main-repeatButton-button[aria-checked=true],
+.main-repeatButton-button[aria-checked=mixed],
+.main-shuffleButton-button[aria-checked=true],
+button[aria-label=Playing],
 .control-button--active-dot:after {
   color: var(--spice-color) !important;
   fill: var(--spice-color) !important;
@@ -74,12 +73,10 @@ button[aria-label="Playing"],
   background: transparent !important;
 }
 
-.__scale_hover:hover, .main-playButton-PlayButton:hover,
-.main-playButton-primary:hover,
+.__scale_hover:hover, .HbKLiGoYM4dpuK8L4TMX:hover, .main-playButton-primary:hover,
 .ButtonInner-sc-14ud5tc-0:hover,
-.main-button-primary:hover, .HbKLiGoYM4dpuK8L4TMX:hover {
-  -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
+.main-button-primary:hover {
+  transform: scale(1.1) !important;
 }
 
 .main-topBar-background {
@@ -99,14 +96,11 @@ button[aria-label="Playing"],
 .HbKLiGoYM4dpuK8L4TMX {
   border-radius: 50% !important;
 }
-
 .HbKLiGoYM4dpuK8L4TMX._APVWqivXc4YqgsnpFkP {
   background-color: var(--spice-contrast) !important;
 }
-
 .HbKLiGoYM4dpuK8L4TMX svg {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .progress-bar:hover .epWhU7hHGktzlO_dop6z {
@@ -118,15 +112,12 @@ button[aria-label="Playing"],
 .main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker {
   color: var(--spice-color) !important;
 }
-
 .main-trackList-trackListRow.main-trackList-active .main-trackList-playingIcon {
-  -webkit-filter: brightness(1000%) !important;
-          filter: brightness(1000%) !important;
+  filter: brightness(1000%) !important;
 }
 
 #spicetify-group-session-menu > img {
-  -webkit-filter: grayscale(100%) contrast(200%) !important;
-          filter: grayscale(100%) contrast(200%) !important;
+  filter: grayscale(100%) contrast(200%) !important;
   border-radius: 5px !important;
   padding-bottom: 0 !important;
   margin-bottom: 12px !important;
