@@ -1,18 +1,16 @@
 {
   "name": "Accented",
   "description": "Replace Spotify's green and remove unnecessary colors.",
-  "preview": "./img/logo.png",
-  "readme": "./README.md",
-  "usercss": "./user.css",
-  "schemes": "./color.ini",
+  "preview": "img/logo.png",
+  "readme": "README.md",
+  "usercss": "user.css",
+  "schemes": "color.ini",
   "authors": [
     {
-      "name": "Luximus",
-      "url": "https://github.com/luximus-hunter"
+      "name": "Luximus", "url": "https://github.com/luximus-hunter"
     },
     {
-      "name": "Gorepas",
-      "url": "https://github.com/Updog36"
+      "name": "Gorepas", "url": "https://github.com/Updog36"
     }
   ]
 }
