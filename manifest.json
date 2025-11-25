@@ -1,7 +1,7 @@
 {
   "name": "Accented",
-  "description": "Replace Spotify's green and remove unnecessary colors.",
-  "preview": "img/logo.png",
+  "description": "Replaces Spotify's green accent with a different color.",
+  "preview": "img/preview.png",
   "readme": "README.md",
   "usercss": "user.css",
   "schemes": "color.ini",
@@ -11,6 +11,9 @@
     },
     {
       "name": "Gorepas", "url": "https://github.com/Updog36"
+    },
+    {
+      "name": "JWWolstenholme", "url": "https://github.com/JWWolstenholme"
     }
   ]
 }
