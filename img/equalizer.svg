@@ -7,19 +7,19 @@
         ]]>
     </style>
     <g id="bars" transform="translate(0 0)">
-        <g id="bar_four_ts" transform="translate(21,27) scale(1,1)">
+        <g id="bar_four_ts" transform="translate(21,24) scale(1,1)">
             <rect id="bar_four" width="4" height="1" rx="0" ry="0"
                 transform="translate(-2,-1)" stroke-width="0" />
         </g>
-        <g id="bar_three_ts" transform="translate(15,27) scale(1,1)">
+        <g id="bar_three_ts" transform="translate(15,24) scale(1,1)">
             <rect id="bar_three" width="4" height="1" rx="0" ry="0"
                 transform="translate(-2,-1)" stroke-width="0" />
         </g>
-        <g id="bar_two_ts" transform="translate(9,27) scale(1,1)">
+        <g id="bar_two_ts" transform="translate(9,24) scale(1,1)">
             <rect id="bar_two" width="4" height="1" rx="0" ry="0"
                 transform="translate(-2,-1)" stroke-width="0" />
         </g>
-        <g id="bar_one_ts" transform="translate(3,27) scale(1,1)">
+        <g id="bar_one_ts" transform="translate(3,24) scale(1,1)">
             <rect id="bar_one" width="4" height="1" rx="0" ry="0"
                 transform="translate(-2,-1)" stroke-width="0" />
         </g>
