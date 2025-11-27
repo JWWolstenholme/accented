@@ -203,7 +203,7 @@ img[src^='/images/equaliser'] {
 		img[src='/images/equaliser-animated-green.gif']
 	)::after {
 	@include equaliser-after(
-		url('https://raw.githubusercontent.com/JWWolstenholme/accented/refs/heads/feat/equalizer-svg/img/equalizer.svg')
+		url('https://raw.githubusercontent.com/JWWolstenholme/accented/refs/heads/master/img/equalizer.svg')
 			no-repeat center/contain
 	);
 }
