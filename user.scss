@@ -2,7 +2,7 @@
 
 // Font with emoji support
 * {
-  font-family: "Open Sans", sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 // globals
@@ -11,145 +11,149 @@
 .progress-bar,
 .progress-bar:hover,
 .hW9km7ku6_iggdWDR_Lg {
-  --background-base: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-  --spice-button: var(--spice-color) !important;
-  --is-active-fg-color: var(--spice-color) !important;
-  --spice-button-active: var(--spice-color) !important;
+	--background-base: var(--spice-color) !important;
+	--is-active-fg-color: var(--spice-color) !important;
+	--spice-button: var(--spice-color) !important;
+	--is-active-fg-color: var(--spice-color) !important;
+	--spice-button-active: var(--spice-color) !important;
 
-  // lyrics tab
-  --lyrics-color-active: var(--spice-color) !important;
-  --lyrics-color-inactive: #464849 !important;
-  --lyrics-color-background: var(--spice-main) !important;
-  --lyrics-color-messaging: #333333 !important;
+	// lyrics tab
+	--lyrics-color-active: var(--spice-color) !important;
+	--lyrics-color-inactive: #464849 !important;
+	--lyrics-color-background: var(--spice-main) !important;
+	--lyrics-color-messaging: #333333 !important;
 }
 
 .__background,
 .control-button--active-dot:after,
-input:checked~.x-toggle-indicatorWrapper {
-  background-color: var(--spice-color) !important;
-  background: var(--spice-color) !important;
-  color: var(--spice-contrast) !important;
+input:checked ~ .x-toggle-indicatorWrapper {
+	background-color: var(--spice-color) !important;
+	background: var(--spice-color) !important;
+	color: var(--spice-contrast) !important;
 }
 
 .button-module__button___hf2qg_marketplace {
-  color: black;
-  background-color: var(--spice-color);
+	color: black;
+	background-color: var(--spice-color);
 }
 
 .Dropdown-menu {
-  background-color: #282828;
-  max-height: 30vh;
-  max-width: 350px;
-  min-width: 145px;
-  border: 4px;
+	background-color: #282828;
+	max-height: 30vh;
+	max-width: 350px;
+	min-width: 145px;
+	border: 4px;
 }
 
 .__color,
-.main-repeatButton-button[aria-checked=true],
-.main-repeatButton-button[aria-checked=mixed],
-.main-shuffleButton-button[aria-checked=true],
-button[aria-label=Playing],
+.main-repeatButton-button[aria-checked='true'],
+.main-repeatButton-button[aria-checked='mixed'],
+.main-shuffleButton-button[aria-checked='true'],
+button[aria-label='Playing'],
 .control-button--active-dot:after {
-  color: var(--spice-color) !important;
-  fill: var(--spice-color) !important;
+	color: var(--spice-color) !important;
+	fill: var(--spice-color) !important;
 }
 
 .__color_contrast {
-  color: var(--spice-contrast) !important;
-  fill: var(--spice-contrast) !important;
+	color: var(--spice-contrast) !important;
+	fill: var(--spice-contrast) !important;
 }
 
 .__heart {
-  color: var(--spice-heart) !important;
-  fill: var(--spice-heart) !important;
+	color: var(--spice-heart) !important;
+	fill: var(--spice-heart) !important;
 }
 
 .__transparent {
-  background-color: transparent !important;
-  background: transparent !important;
+	background-color: transparent !important;
+	background: transparent !important;
 }
 
 .__scale_hover {
-  &:hover {
-    transform: scale(1.1) !important;
-  }
+	&:hover {
+		transform: scale(1.1) !important;
+	}
 }
 
 // page top bar
 .main-topBar-background {
-  background-color: var(--spice-player) !important;
-  background: var(--spice-player) !important;
+	background-color: var(--spice-player) !important;
+	background: var(--spice-player) !important;
 }
 
 // big header color
 .main-entityHeader-backgroundColor,
 .main-home-homeHeader,
 .main-actionBarBackground-background {
-  @extend .__transparent;
+	@extend .__transparent;
 }
 
 .iB16LxoPzDeVZo8zPhPQ {
-  isolation: unset !important;
+	isolation: unset !important;
 }
 
 // like buttons
 .control-button-heart,
 .main-addButton-active {
-  @extend .__heart;
+	@extend .__heart;
 
-  &:hover {
-    opacity: 0.75 !important;
-  }
+	&:hover {
+		opacity: 0.75 !important;
+	}
 }
 
 // buttons
 .main-playButton-primary,
 .ButtonInner-sc-14ud5tc-0,
 .main-button-primary {
-  @extend .__background;
-  @extend .__scale_hover;
+	@extend .__background;
+	@extend .__scale_hover;
 }
 
 .e-91000-button-primary:hover .e-91000-button-primary__inner:hover {
-  // Fallback
-  background-color: var(--spice-color) !important;
-  // Dynamically mimic Spotify's two hardcoded colors: #1ed760 & #3be477
-  background-color: color-mix(in srgb, var(--spice-color) 86%, white 14%) !important;
+	// Fallback
+	background-color: var(--spice-color) !important;
+	// Dynamically mimic Spotify's two hardcoded colors: #1ed760 & #3be477
+	background-color: color-mix(
+		in srgb,
+		var(--spice-color) 86%,
+		white 14%
+	) !important;
 }
 
 // download button
 .HbKLiGoYM4dpuK8L4TMX {
-  @extend .__color;
-  @extend .__scale_hover;
+	@extend .__color;
+	@extend .__scale_hover;
 
-  border-radius: 50% !important;
+	border-radius: 50% !important;
 
-  &._APVWqivXc4YqgsnpFkP {
-    background-color: var(--spice-contrast) !important;
-  }
+	&._APVWqivXc4YqgsnpFkP {
+		background-color: var(--spice-contrast) !important;
+	}
 
-  svg {
-    transform: scale(1.1);
-  }
+	svg {
+		transform: scale(1.1);
+	}
 }
 
 // progress bar
 .progress-bar:hover .epWhU7hHGktzlO_dop6z {
-  background: var(--spice-color) !important;
-  background-color: var(--spice-color) !important;
+	background: var(--spice-color) !important;
+	background-color: var(--spice-color) !important;
 }
 
 // song list active row
 .main-trackList-trackListRow.main-trackList-active {
-  .main-trackList-rowTitle,
-  .main-trackList-rowMarker {
-    color: var(--spice-color) !important;
-  }
+	.main-trackList-rowTitle,
+	.main-trackList-rowMarker {
+		color: var(--spice-color) !important;
+	}
 
-  .main-trackList-playingIcon {
-    filter: brightness(1000%) !important;
-  }
+	.main-trackList-playingIcon {
+		filter: brightness(1000%) !important;
+	}
 }
 
 // devices pannel
@@ -157,60 +161,66 @@ button[aria-label=Playing],
 .connect-device-list-item--active *,
 .control-button--active,
 .main-repeatButton-button {
-  @extend .__color;
+	@extend .__color;
 }
 
 .main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
-  @extend .__color_contrast;
+	@extend .__color_contrast;
 }
 
 // group session icons
 #spicetify-group-session-menu > img {
-  filter: grayscale(100%) contrast(200%) !important;
-  border-radius: 5px !important;
-  padding-bottom: 0 !important;
-  margin-bottom: 12px !important;
+	filter: grayscale(100%) contrast(200%) !important;
+	border-radius: 5px !important;
+	padding-bottom: 0 !important;
+	margin-bottom: 12px !important;
 }
 
-
 // Animated equalizer in track list
-
 img[src^='/images/equaliser'] {
-  display: none;
+	display: none;
 }
 
 @mixin equaliser-after($mask-value) {
-  /* Takes an svg, uses it as a mask on top of a square of the desired theme color. */
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
+	/* Takes an svg, uses it as a mask on top of a square of the desired theme color. */
+	content: '';
+	position: absolute;
+	width: 14px;
+	height: 14px;
 
-  background-color: var(--spice-color);
-  background: var(--spice-color);
+	background-color: var(--spice-color);
+	background: var(--spice-color);
 
-  -webkit-mask: #{$mask-value};
-  mask: #{$mask-value};
-  -webkit-mask-size: contain;
-  mask-size: contain;
+	-webkit-mask: #{$mask-value};
+	mask: #{$mask-value};
+	-webkit-mask-size: contain;
+	mask-size: contain;
 }
 
 /** Add new SVGs to the <img>'s parent div's ::after block */
 /* Replace animated gif (when window focused) with custom replica animated svg */
-.main-trackList-rowMarker:has(img[src="/images/equaliser-animated-green.gif"])::after {
-  @include equaliser-after(url("https://raw.githubusercontent.com/JWWolstenholme/accented/refs/heads/feat/equalizer-svg/img/equalizer.svg") no-repeat center/contain);
+.main-trackList-rowMarker:has(
+		img[src='/images/equaliser-animated-green.gif']
+	)::after {
+	@include equaliser-after(
+		url('https://raw.githubusercontent.com/JWWolstenholme/accented/refs/heads/feat/equalizer-svg/img/equalizer.svg')
+			no-repeat center/contain
+	);
 }
 
 /* Replace static svg (window not focused) with static svg (same as Spotify's static svg, except with `fill="currentColor"` added) */
-.main-trackList-rowMarker:has(img[src="/images/equaliser-green.svg"])::after {
-  @include equaliser-after(url("data:image/svg+xml;utf8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20fill%3D%22currentColor%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M3.99902%2014H5.99902V0H3.99902V14ZM-0.000976562%2014H1.99902V4H-0.000976562V14ZM12%207V14H14V7H12ZM8.00002%2014H10V10H8.00002V14Z%22%2F%3E%3C%2Fsvg%3E") no-repeat center/contain);
+.main-trackList-rowMarker:has(img[src='/images/equaliser-green.svg'])::after {
+	@include equaliser-after(
+		url('data:image/svg+xml;utf8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20fill%3D%22currentColor%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M3.99902%2014H5.99902V0H3.99902V14ZM-0.000976562%2014H1.99902V4H-0.000976562V14ZM12%207V14H14V7H12ZM8.00002%2014H10V10H8.00002V14Z%22%2F%3E%3C%2Fsvg%3E')
+			no-repeat center/contain
+	);
 }
 
 /* Hide when track row is hovered over */
 .main-trackList-trackListRow {
-  &:hover {
-    .main-trackList-rowMarker:has(img[src^='/images/equaliser'])::after {
-      display: none;
-    }
-  }
+	&:hover {
+		.main-trackList-rowMarker:has(img[src^='/images/equaliser'])::after {
+			display: none;
+		}
+	}
 }
