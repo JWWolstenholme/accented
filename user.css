@@ -93,6 +93,11 @@ button[aria-label=Playing],
   opacity: 0.75 !important;
 }
 
+.e-91000-button-primary:hover .e-91000-button-primary__inner:hover {
+  background-color: var(--spice-color) !important;
+  background-color: color-mix(in srgb, var(--spice-color) 86%, white 14%) !important;
+}
+
 .HbKLiGoYM4dpuK8L4TMX {
   border-radius: 50% !important;
 }

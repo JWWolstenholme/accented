@@ -111,6 +111,13 @@ button[aria-label=Playing],
   @extend .__scale_hover;
 }
 
+.e-91000-button-primary:hover .e-91000-button-primary__inner:hover {
+  // Fallback
+  background-color: var(--spice-color) !important;
+  // Dynamically mimic Spotify's two hardcoded colors: #1ed760 & #3be477
+  background-color: color-mix(in srgb, var(--spice-color) 86%, white 14%) !important;
+}
+
 // download button
 .HbKLiGoYM4dpuK8L4TMX {
   @extend .__color;
